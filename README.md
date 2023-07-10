@@ -1,5 +1,5 @@
 # criptografia-simetrica-com-hash
-Garantia de identidade usando criptografia simétrica com Hash. Exemplo didático
+Garantia de identidade usando criptografia simétrica com Hash. Exemplo didático feito na disciplina de Auditoria de SI.
 
 Esse código simula uma comunicação entre 2 clientes, onde o primeiro cliente gera o hash da mensagem a ser enviada e depois criptografa o Hash com uma chave simétrica, para que seja garantida a identificação do cliente A. Quando cliente B recebe a mensagem + hash criptografado, ele descriptografa o Hash e compara com o hash gerado da mensagem.
 
